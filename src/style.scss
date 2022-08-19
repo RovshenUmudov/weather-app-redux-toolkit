@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'NTR', 'Arial', sans-serif;
+}
+
+:root {
+    --color-white: #fff;
+    --color-text: #333;
+    --color-text-2: #777;
+    --color-gray: #f6f5fa;
+}
+
+.main-content {
+    display: grid;
+    grid-gap: 50px;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+.layout {
+    min-height: 100vh !important;
+    padding: 50px;
+
+    .main-content {
+        background-color: var(--color-white);
+        padding: 50px;
+    }
+}
+
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

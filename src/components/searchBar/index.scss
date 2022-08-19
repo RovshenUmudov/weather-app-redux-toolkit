@@ -1,0 +1,26 @@
+.search-bar {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 15px;
+
+    .label {
+        font-size: 20px;
+        text-transform: uppercase;
+        line-height: 1;
+        margin-bottom: 10px;
+    }
+
+    .ant-row {
+        align-items: flex-end;
+        width: 600px;
+    }
+
+    button,
+    .ant-input {
+        width: 100%;
+        padding: 15px !important;
+        height: 60px !important;
+        font-size: 18px;
+    }
+}
